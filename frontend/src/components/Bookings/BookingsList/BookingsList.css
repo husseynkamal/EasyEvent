@@ -1,0 +1,14 @@
+.bookings__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 40rem;
+  max-width: 80%;
+  margin: auto;
+}
+
+@media (max-width: 767px) {
+  .bookings__list {
+    max-width: 100%;
+  }
+}

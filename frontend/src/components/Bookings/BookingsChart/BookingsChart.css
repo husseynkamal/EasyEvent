@@ -1,0 +1,10 @@
+.chart-content {
+  width: 700px;
+  margin: 1rem auto;
+}
+
+@media (max-width: 767px) {
+  .chart-content {
+    width: auto;
+  }
+}

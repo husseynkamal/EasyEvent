@@ -1,0 +1,12 @@
+/*DFA8E4*/
+.modal__details h1,
+.modal__details p {
+  color: #934379;
+  font-weight: bolder;
+}
+
+.modal__details h1 span,
+.modal__details p span {
+  font-weight: lighter;
+  color: #846faa;
+}

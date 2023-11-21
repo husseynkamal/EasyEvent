@@ -1,0 +1,13 @@
+.event__list {
+  margin: 2rem auto;
+  width: 40rem;
+  max-width: 90%;
+  list-style-type: none;
+  padding: 0;
+}
+
+@media (max-width: 767px) {
+  .event__list {
+    max-width: 100%;
+  }
+}

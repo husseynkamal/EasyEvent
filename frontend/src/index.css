@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main-content {
+  margin: 4rem 2.5rem;
+}
+
+.form-control label,
+.form-control input {
+  width: 100%;
+  display: block;
+}
+
+.form-control input {
+  padding: 0.5rem;
+}
+
+.form-control label {
+  margin-bottom: 0.5rem;
+}
+
+.form-control {
+  margin-bottom: 1rem;
+}
+
+.form-actions button,
+.btn {
+  background-color: #5101d1;
+  font: inherit;
+  border: 1px solid #5101d1;
+  border-radius: 3px;
+  padding: 0.25rem 1rem;
+  margin-right: 1rem;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.26);
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.form-actions button:nth-child(2) {
+  background-color: #fff;
+  color: #5101d1;
+}
+
+.form-actions button:disabled:hover,
+.btn:disabled:hover {
+  cursor: not-allowed;
+  background-color: #5101d1;
+}
+
+.form-actions button:hover,
+.form-actions button:active,
+.btn:hover,
+.btn:active {
+  background-color: #7e2eff;
+  border-color: #7e2eff;
+}
+
+.form-actions button:nth-child(2):hover,
+.form-actions button:nth-child(2):active {
+  background-color: #7e2eff;
+  color: #fff;
+}

@@ -1,0 +1,21 @@
+.drawer__btn {
+  display: none;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.drawer__btn svg {
+  font-size: 2rem;
+  margin-left: 6px;
+  color: #fff;
+}
+
+@media (max-width: 767px) {
+  .drawer__btn {
+    display: flex;
+  }
+}

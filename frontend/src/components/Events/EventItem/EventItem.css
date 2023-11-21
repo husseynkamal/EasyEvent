@@ -1,0 +1,46 @@
+.events__list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+  padding: 1rem;
+  border: 1px solid #5101d1;
+}
+
+.events__list-item h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #5101d1;
+}
+
+.events__list-item h2 {
+  margin: 0;
+  font-size: 1rem;
+  color: #7c7c7c;
+}
+
+.events__list-item p {
+  margin: 0;
+}
+
+.events__list-item .update-control {
+  display: flex;
+}
+
+.events__list-item .update-control button {
+  margin-left: 1rem;
+  padding: 0;
+  background-color: #fff;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.events__list-item .update-control button:first-of-type svg {
+  color: #008000;
+}
+
+.events__list-item .update-control button:nth-child(2) svg {
+  color: rgb(197, 0, 0);
+  margin-right: 10px;
+}

@@ -1,0 +1,10 @@
+.empty__bookings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.empty__bookings a {
+  color: #5101d1;
+}

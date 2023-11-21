@@ -1,0 +1,60 @@
+.side__drawer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20rem;
+  height: 100vh;
+  background-color: #fff;
+  z-index: 100;
+}
+
+.side__drawer ul li {
+  margin: 2rem 0;
+  font-size: 1.5rem;
+  list-style-type: none;
+}
+
+.side__drawer a,
+.side__drawer button {
+  text-decoration: none;
+  color: #5101d1;
+  padding: 0.25rem 0.5rem;
+  border: none;
+  font: inherit;
+  background: transparent;
+  cursor: pointer;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.side__drawer a:hover,
+.side__drawer a:active,
+.side__drawer a.active,
+.side__drawer button:hover,
+.side__drawer button:active {
+  background: #5101d1;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.open-enter {
+  opacity: 0;
+  transform: translateX(-10rem);
+}
+
+.open-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 200ms;
+}
+
+.open-exit {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.open-exit-active {
+  opacity: 0;
+  transform: translateX(-10rem);
+  transition: all 200ms;
+}
